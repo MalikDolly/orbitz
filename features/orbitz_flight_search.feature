@@ -39,5 +39,5 @@ Feature: Flight Search Functionality
   |Tell us where you're flying to.               |
   |Dates must be between 9/29/2018 and 8/22/2019.|
   |The date must be 9/29/2018 or after.          |
-  |wrong error message                           |
-  |more error messages added                     |
+  |correct or wrong error message                           |
+
