@@ -40,7 +40,7 @@ Feature: Flight Search Functionality
   |Dates must be between 9/29/2018 and 8/22/2019.|
   |The date must be 9/29/2018 or after.          |
   |wrong error message                           |
-      Scenario: verify the list of airports displayed should not be more than 5
+      Scenario: verify the list of airports displayed should not be more than 5 airports
         When user enter in flying from edit box
         Then verify the list of airports counts is more than 5
 
