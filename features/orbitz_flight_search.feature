@@ -39,8 +39,8 @@ Feature: Flight Search Functionality
   |Tell us where you're flying to.               |
   |Dates must be between 9/29/2018 and 8/22/2019.|
   |The date must be 9/29/2018 or after.          |
-
-#      Scenario: verify the list of airports displayed should not be more than 5
-#        When user enter in flying from edit box
-#        Then verify the list of airports counts is more than 5
+  |wrong error message                           |
+      Scenario: verify the list of airports displayed should not be more than 5
+        When user enter in flying from edit box
+        Then verify the list of airports counts is more than 5
 
