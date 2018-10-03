@@ -12,3 +12,8 @@ Feature: Hotel Search Functionality
     And user enter future date in returning edit box
     And click on search button
     Then verify hotel search results page is displayed
+    
+    Scenario Outline:
+    
+    
+    Scenario inline:
