@@ -16,4 +16,4 @@ Feature: Hotel Search Functionality
     Scenario Outline:
     
     
-    Scenario inline:
+    Scenarios:
